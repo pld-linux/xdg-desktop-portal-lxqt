@@ -6,12 +6,12 @@
 Summary:	A backend implementation for xdg-desktop-portal that is using Qt/KF6/libfm-qt
 Summary(pl.UTF-8):	Implementacja backendu dla xdg-desktop-portal wykorzystująca Qt/KF6/libfm-qt
 Name:		xdg-desktop-portal-lxqt
-Version:	1.3.0
+Version:	1.4.0
 Release:	1
 License:	LGPL-2.0-or-later
 URL:		https://lxqt-project.org
 Source0:	https://github.com/lxqt/xdg-desktop-portal-lxqt/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	f3f396cf208fea0bd5a88f0d43fa9b97
+# Source0-md5:	e624e0c130c2210a7e3a08ab6d9b6e04
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= %{qtver}
@@ -19,7 +19,7 @@ BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	kf6-kwindowsystem-devel >= 6.0.0
 BuildRequires:	libexif-devel
-BuildRequires:	libfm-qt-devel >= 2.3.0
+BuildRequires:	libfm-qt-devel >= 2.4.0
 Requires(post,preun):	systemd-units >= 1:250.1
 Requires:	dbus
 Requires:	xdg-desktop-portal
